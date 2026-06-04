@@ -1,110 +1,68 @@
-# Byte-compiled / optimized / DLL files
+# ── Python ────────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
 *.egg
-MANIFEST
+*.egg-info/
+dist/
+build/
+.eggs/
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# Environments
+# ── Entornos virtuales ───────────────────────────────────────────────────
 .env
 .venv
 env/
 venv/
 ENV/
-env.bak/
-venv.bak/
+.python-version
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# ── Jupyter ───────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# Large data files and directories
+# ── Datasets (demasiado grandes para Git) ────────────────────────────────
 dataset/
-*.csv
-*.xlsx
-*.xls
+etl_output/
 
-# Model checkpoints and trained models
+# ── Checkpoints y modelos entrenados ─────────────────────────────────────
 checkpoints/
+checkpoints_gpu/
+checkpoints_gpu_v2/
 *.pt
 *.pth
 *.h5
 *.pkl
 *.pickle
+*.onnx
 
-# Temporary files
+# ── Resultados (sí se versionan — eliminar estas líneas si no quieres) ───
+# resultados_*.csv
+# resultados_*.json
+# ttest_*.csv
+# ablativo_*.csv
+# ablativo_*.json
+
+# ── OS ────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Logs y temporales ────────────────────────────────────────────────────
+*.log
 *.tmp
 *.bak
-*.log
 *.swp
 *.swo
 *~
 
-# OS specific
-.DS_Store
-Thumbs.db
-
-# IDE specific
-.vscode/
-.idea/
-*.swp
-*.swo
-*.sublime-project
-*.sublime-workspace
-
-# ETL output files (can be regenerated)
-etl_output/
-
-# Cache files
+# ── Cache ─────────────────────────────────────────────────────────────────
 *.cache
+.mypy_cache/
+.pyre/
