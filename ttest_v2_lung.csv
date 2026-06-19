@@ -1,0 +1,11 @@
+Par,t,p,sig
+resnet18 vs hqccnn,20.159,0.0,*
+resnet18 vs peqml,29.0034,0.0,*
+resnet18 vs hqcinn_shallow,20.6398,0.0,*
+resnet18 vs hqcinn_deep,15.378,0.0,*
+hqccnn vs peqml,2.746,0.025215,*
+hqccnn vs hqcinn_shallow,-3.8069,0.005186,*
+hqccnn vs hqcinn_deep,-1.4134,0.195249,
+peqml vs hqcinn_shallow,-12.8206,1e-06,*
+peqml vs hqcinn_deep,-3.6341,0.006646,*
+hqcinn_shallow vs hqcinn_deep,1.2199,0.25726,

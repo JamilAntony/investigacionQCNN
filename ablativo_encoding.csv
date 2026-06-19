@@ -1,0 +1,7 @@
+encoding,dataset,Accuracy,F1-macro,AUC
+angle_rx,chest,0.9283,0.9123,0.9755
+angle_rx,lung,0.1091,0.0656,0.5236
+angle_ry,chest,0.9454,0.9305,0.9752
+angle_ry,lung,0.1091,0.0674,0.5691
+amplitude,chest,0.8191,0.8021,0.9447
+amplitude,lung,0.1091,0.0656,0.6186

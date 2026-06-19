@@ -107,6 +107,10 @@ Abre **cmd** (no PowerShell) y usa la ruta exacta de tu Python:
 
 > **Nota:** `pennylane-lightning[gpu]` **no está disponible en Windows**.  
 > Se usa `pennylane-lightning` (CPU con backend C++ optimizado), que es suficiente para 4–6 qubits.
+### Antes de entrenar modelos reemplazar direeccion con la oficial, reiniciar jupyter al instalar
+
+"direccion" -m pip install ipywidgets
+"direccion" -m pip install --upgrade jupyterlab
 
 ### Verificar que CUDA quedó activo
 

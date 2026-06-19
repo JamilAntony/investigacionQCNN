@@ -1,0 +1,178 @@
+{
+  "qubits": [
+    {
+      "n_qubits": 4,
+      "dataset": "chest",
+      "Accuracy": 0.8783,
+      "F1-macro": 0.8534,
+      "AUC": 0.9343
+    },
+    {
+      "n_qubits": 4,
+      "dataset": "lung",
+      "Accuracy": 0.1091,
+      "F1-macro": 0.0656,
+      "AUC": 0.5997
+    },
+    {
+      "n_qubits": 6,
+      "dataset": "chest",
+      "Accuracy": 0.9352,
+      "F1-macro": 0.916,
+      "AUC": 0.9676
+    },
+    {
+      "n_qubits": 6,
+      "dataset": "lung",
+      "Accuracy": 0.1091,
+      "F1-macro": 0.0656,
+      "AUC": 0.4493
+    },
+    {
+      "n_qubits": 8,
+      "dataset": "chest",
+      "Accuracy": 0.9135,
+      "F1-macro": 0.8976,
+      "AUC": 0.9824
+    },
+    {
+      "n_qubits": 8,
+      "dataset": "lung",
+      "Accuracy": 0.1091,
+      "F1-macro": 0.0656,
+      "AUC": 0.5191
+    }
+  ],
+  "profundidad": [
+    {
+      "n_layers": 1,
+      "dataset": "chest",
+      "Accuracy": 0.9101,
+      "F1-macro": 0.8892,
+      "AUC": 0.9589
+    },
+    {
+      "n_layers": 1,
+      "dataset": "lung",
+      "Accuracy": 0.1091,
+      "F1-macro": 0.0656,
+      "AUC": 0.5285
+    },
+    {
+      "n_layers": 2,
+      "dataset": "chest",
+      "Accuracy": 0.9363,
+      "F1-macro": 0.9191,
+      "AUC": 0.9742
+    },
+    {
+      "n_layers": 2,
+      "dataset": "lung",
+      "Accuracy": 0.1091,
+      "F1-macro": 0.0659,
+      "AUC": 0.3581
+    },
+    {
+      "n_layers": 3,
+      "dataset": "chest",
+      "Accuracy": 0.9067,
+      "F1-macro": 0.8893,
+      "AUC": 0.9748
+    },
+    {
+      "n_layers": 3,
+      "dataset": "lung",
+      "Accuracy": 0.1091,
+      "F1-macro": 0.0656,
+      "AUC": 0.5965
+    }
+  ],
+  "entrelazamiento": [
+    {
+      "entanglement": "linear",
+      "dataset": "chest",
+      "Accuracy": 0.9238,
+      "F1-macro": 0.9067,
+      "AUC": 0.976
+    },
+    {
+      "entanglement": "linear",
+      "dataset": "lung",
+      "Accuracy": 0.1273,
+      "F1-macro": 0.0974,
+      "AUC": 0.4967
+    },
+    {
+      "entanglement": "circular",
+      "dataset": "chest",
+      "Accuracy": 0.9352,
+      "F1-macro": 0.9206,
+      "AUC": 0.9818
+    },
+    {
+      "entanglement": "circular",
+      "dataset": "lung",
+      "Accuracy": 0.297,
+      "F1-macro": 0.2477,
+      "AUC": 0.5402
+    },
+    {
+      "entanglement": "full",
+      "dataset": "chest",
+      "Accuracy": 0.8771,
+      "F1-macro": 0.8563,
+      "AUC": 0.9444
+    },
+    {
+      "entanglement": "full",
+      "dataset": "lung",
+      "Accuracy": 0.1758,
+      "F1-macro": 0.1462,
+      "AUC": 0.5177
+    }
+  ],
+  "encoding": [
+    {
+      "encoding": "angle_rx",
+      "dataset": "chest",
+      "Accuracy": 0.9283,
+      "F1-macro": 0.9123,
+      "AUC": 0.9755
+    },
+    {
+      "encoding": "angle_rx",
+      "dataset": "lung",
+      "Accuracy": 0.1091,
+      "F1-macro": 0.0656,
+      "AUC": 0.5236
+    },
+    {
+      "encoding": "angle_ry",
+      "dataset": "chest",
+      "Accuracy": 0.9454,
+      "F1-macro": 0.9305,
+      "AUC": 0.9752
+    },
+    {
+      "encoding": "angle_ry",
+      "dataset": "lung",
+      "Accuracy": 0.1091,
+      "F1-macro": 0.0674,
+      "AUC": 0.5691
+    },
+    {
+      "encoding": "amplitude",
+      "dataset": "chest",
+      "Accuracy": 0.8191,
+      "F1-macro": 0.8021,
+      "AUC": 0.9447
+    },
+    {
+      "encoding": "amplitude",
+      "dataset": "lung",
+      "Accuracy": 0.1091,
+      "F1-macro": 0.0656,
+      "AUC": 0.6186
+    }
+  ]
+}

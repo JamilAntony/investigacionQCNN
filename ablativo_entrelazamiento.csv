@@ -1,0 +1,7 @@
+entanglement,dataset,Accuracy,F1-macro,AUC
+linear,chest,0.9238,0.9067,0.976
+linear,lung,0.1273,0.0974,0.4967
+circular,chest,0.9352,0.9206,0.9818
+circular,lung,0.297,0.2477,0.5402
+full,chest,0.8771,0.8563,0.9444
+full,lung,0.1758,0.1462,0.5177
